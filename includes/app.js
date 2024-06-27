@@ -24,7 +24,7 @@ function userData(username){
                 <img src="${data.avatar_url}" alt="">
             </div>
             <div class="user_data">
-                <h2>${data.name}</h2>
+                <h2>${data.login}</h2>
                 <p>${data.bio}</p>
                 <ul>
                     <li>${data.followers} <strong>Followers</strong></li>
